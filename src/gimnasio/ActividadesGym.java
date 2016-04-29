@@ -47,9 +47,6 @@ public class ActividadesGym {
         return true;
     }
     
-    
-
-    
     public String getPrecioActiv() {
         return precioactiv;
     }
