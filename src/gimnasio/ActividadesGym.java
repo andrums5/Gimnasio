@@ -1,17 +1,18 @@
 
 package gimnasio;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 
-public class ActividadesGym {
+public class ActividadesGym implements Serializable{
     
     private String nombreaciv;    
-    private String maxasist;
+    private int maxasist;
     private int sociosinscrtos;
     private String precioactiv;
 
-    public ActividadesGym(String nombreaciv, String maxasist, int sociosinscrtos, String precioactiv) {
+    public ActividadesGym(String nombreaciv, int maxasist, int sociosinscrtos, String precioactiv) {
         this.nombreaciv = nombreaciv;
         this.maxasist = maxasist;
         this.sociosinscrtos = sociosinscrtos;
@@ -66,11 +67,11 @@ public class ActividadesGym {
     }
 
 
-    public String getMaxAsist() {
+    public int getMaxAsist() {
         return maxasist;
     }
 
-    public void setMaxAsist(String maxAsist) {
+    public void setMaxAsist(int maxAsist) {
         this.maxasist = maxAsist;
     }
 

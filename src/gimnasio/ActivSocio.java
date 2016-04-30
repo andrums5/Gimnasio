@@ -1,8 +1,9 @@
 package gimnasio;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class ActivSocio {
+public class ActivSocio implements Serializable{
 
     private String nombreactiv;
     private String numsocio;
@@ -43,7 +44,7 @@ public class ActivSocio {
         }
         return true;
     }
-    
+
     public String getNumsocio() {
         return numsocio;
     }
@@ -51,7 +52,6 @@ public class ActivSocio {
     public void setNumsocio(String numsocio) {
         this.numsocio = numsocio;
     }
-
 
     public String getNombreactiv() {
         return nombreactiv;
