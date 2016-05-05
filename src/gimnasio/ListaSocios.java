@@ -28,9 +28,9 @@ public class ListaSocios implements Serializable{
     return listasocio.get(posicion);
     }
     //metodo por codigo devuelve el socio
-    public Socios socioPorCodigo(int codigo){
+    public Socios socioPorCodigo(int numSocio){
         for(Socios s : listasocio){
-            if(s.getNumero()==codigo){
+            if(s.getNumero()==numSocio){
                 return s;
             }
         }

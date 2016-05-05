@@ -1,7 +1,6 @@
 package gimnasio;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 public class Socios implements Serializable{
 
@@ -19,7 +18,12 @@ public class Socios implements Serializable{
         this.vip = vip;
     }
 
-   
+    public Socios() {
+        nombre = "";
+        telefono = "";
+        cuota = new Double(0);
+        vip = false;
+    }
 
     @Override
     public int hashCode() {

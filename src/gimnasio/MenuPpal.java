@@ -3,12 +3,12 @@ import utilidades.EntradaDatos;
 import utilidades.Fichero;
 
 public class MenuPpal {
-    public Fichero ficheroSocios;
-    public Fichero ficheroActiv;
-    public Fichero ficheroActivSoc;
-    public ListaActivSocio listaActivSoc;
-    public ListaActividades listActiv;
-    public ListaSocios losSocios;
+    public static Fichero ficheroSocios;
+    public static Fichero ficheroActiv;
+    public static Fichero ficheroActivSoc;
+    public static ListaActivSocio listaActivSoc;
+    public static ListaActividades listActiv;
+    public static ListaSocios losSocios;
 
     public MenuPpal() {
         ficheroSocios = new Fichero("fsocios.xml");

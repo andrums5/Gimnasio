@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_91" class="java.beans.XMLDecoder">
+ <object class="gimnasio.ListaSocios" id="ListaSocios0">
+  <void property="listasocio">
+   <void method="add">
+    <object class="gimnasio.Socios">
+     <void property="cuota">
+      <double>10.0</double>
+     </void>
+     <void property="nombre">
+      <string>a</string>
+     </void>
+     <void property="numero">
+      <int>1</int>
+     </void>
+     <void property="telefono">
+      <string>a</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
